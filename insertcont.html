@@ -1,0 +1,15 @@
+<?php
+$conn=mysqli_connect('localhost','lavkushm_root','Lavkush2211','lavkushm_profile');
+$name=$_REQUEST['name'];
+$phone=$_REQUEST['phone'];
+$email=$_REQUEST['email'];
+$message=$_REQUEST['message'];
+$query=mysqli_query($conn,"INSERT INTO `customer`(`Name`, `Phone`, `Email`, `Message`)VALUES('$name', '$phone',
+	'$email', '$message')");
+if($query)
+{
+	header("Location:index.php");
+}else{
+	header("Location:contact.php");
+}
+?>

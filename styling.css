@@ -1,0 +1,935 @@
+.fdiv{
+  width: 96%;
+  height:700px;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: #00134d;
+}
+
+.doingdiv{
+  width:16%;
+  height: 250px;
+  margin-right:2%;
+  margin-left: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  float: left;
+margin-top: 20px;
+}
+ .doingdiv:hover {
+  background-color:#944dff;
+  color: white;
+}
+.container2{
+  width: 96%;
+  height: auto;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-top:10px;
+}
+
+.row0 {
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: -10px;
+}
+#connect{
+  height:auto;
+  width: auto;
+  background-color:#00cc66;
+  margin-left:10%;
+  margin-right: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius:5px;
+}
+/* Add padding BETWEEN each column (if you want) */
+
+
+/* Create four equal columns that floats next to each other */
+.column0 {
+  float: left;
+  width: 50%;
+
+
+}
+
+/* Clear floats after rows */
+.row0:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content0 {
+  background-color:black;
+  height:100px;
+}
+.brand{
+width: 16%;
+height: 200px;
+float: left;
+margin-right: 45px;
+margin-top: -10px;
+}
+.brand2{
+width: 15%;
+height: 200px;
+float: left;
+margin-right:50px;
+margin-top: 60px;
+}
+.book{
+  width: 12%;
+  height: 300px;
+  float: left;
+  margin-right: 50px;
+}
+.fquorte{
+  width: 20%;
+  height: auto;
+  float: left;
+  margin-left: 1%;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-left: 20px;
+  border: 3px solid gray;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+.fquorte:hover {
+
+opacity: 0.3;
+}
+.portf2{
+  width: 22%;
+  height: 300px;
+  float: left;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 600px) {
+.portf2{
+width: 85%;
+ }
+}
+@media screen and (max-width: 600px) {
+.fquorte{
+width: 80%;
+ }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column0 {
+    width: 50%;
+  }
+}
+@media screen and (max-width:600px) {
+.brand{
+  width: 70%;
+  margin-left: 40px;
+ }
+}
+@media screen and (max-width: 600px) {
+.brand2{
+  width: 70%;
+  margin-left: 30px;
+ }
+}
+@media screen and (max-width:600px) {
+.book{
+  width: 70%;
+  margin-left: -20px;
+ }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column0 {
+    width: 100%;
+  }
+}
+@media screen and (max-width:600px) {
+.doingdiv{
+width: 80%;
+margin-left: 30px;
+ }
+}
+@media screen and (max-width:600px) {
+.aimg{
+height: 300px;
+ }
+}
+@media screen and (max-width: 600px) {
+.aimg2{
+height: 300px;
+width: 90%;
+ }
+}
+.container5{
+  height: auto;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top:50px;
+  padding-bottom: 30px;
+}
+.header1{
+  height: 100px;
+  margin-left: 13%;
+  margin-right: 13%;
+  background-color:#3385ff;
+  margin-top:0px;
+}
+#brand{
+  height: 40px;
+  width: 300px;
+  padding-top:30px;
+}
+.topnav {
+  background-color:black;
+  overflow: hidden;
+  padding-right:0PX;
+  height: auto;
+}
+
+.topnav {
+  background-color:black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: orange;
+  text-align: center;
+  padding-top:20px;
+  text-decoration: none;
+  font-size:1.2vw;
+  margin-right:30px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: white;
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+#about{
+  padding-left:50px;
+  padding-right:10px;
+  padding-top:0px;
+  font-size:20px;
+  margin-top: -5px;
+  text-align: justify;
+}
+.line{
+  width:96%;
+  margin-left: 2%;
+  margin-right:2%;
+  height: auto;
+  background-color:#001133;
+  padding-top:15px;
+  margin-top: 3px;
+}
+.mylink {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+.mylink a:hover {
+  font-size: 20px;
+    font-weight: bold;
+    color: #B314DB;
+}
+.mylink li{
+    height: 30px;
+    list-style: none; 
+  }
+
+#social{
+    font-size:3.5vw;
+    font-weight: bold;
+    color:white;
+}
+.socialdiv1{
+  height: auto;
+  width: 21.5%;
+  margin-right: 0%;
+  margin-left: 9%;
+  /*background-color:white;*/
+  float: left;
+  padding-top: 60px;
+}
+.responsive {
+  width: 60%;
+  height: auto;
+}
+#imgsocial1{
+  border-radius: 48%;
+  background: linear-gradient(to right, #8080ff,#0000b3);
+  padding:20px;
+  margin-left:50px;
+}
+#imgsocial2{
+  border-radius: 48%;
+  background: linear-gradient(to right, #ff0066,#ffff00);
+  padding: 20px;
+  margin-left: 50px;
+}
+#imgsocial3{
+  border-radius: 48%;
+  background: linear-gradient(to right, #0000b3,#99ddff);
+  padding: 20px;
+  margin-left: 50px;
+}
+#imgsocial4{
+  border-radius: 48%;
+  background: linear-gradient(to right, #1ab2ff,#0077b3);
+  padding: 20px;
+  margin-left: 50px;
+}
+#imgsocial5{
+  border-radius: 48%;
+  background: linear-gradient(to right, #bd081c,#3385ff);
+  padding: 20px;
+  margin-left: 50px;
+}
+#imgsocial6{
+  border-radius: 48%;
+  background: linear-gradient(to right, #ff0000,#ff0066);
+  padding: 20px;
+  margin-left: 50px;
+}
+.buttondiv{
+  width: 250px;
+  height: auto;
+  border-radius:5px;
+  padding: 20px;
+}
+#linksocial{
+  text-decoration: none;
+  font-size:16px;
+  color: white;
+  font-weight: bold;
+  font-family: Arial;
+}
+#b{
+  quotes: "  “  " "  “  " "‚" "‘";
+}
+  #quote1{
+    color: white;
+    font-size:2vw;
+    font-weight:bold;
+    font-family: Arial;
+  }
+  #quote2{
+    color:orange;
+    font-size:5vw;
+    font-weight:bold;
+    font-family: Arial;
+
+  }
+  #aa{
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50px;
+  text-align: center;
+  margin: 10px;
+  line-height: 60px;
+  margin-top: 10px;
+}
+.centerdiv{
+      height:auto;
+      display:flex;
+      justify-content: center;
+      
+}
+a i{
+  transform: all 0.3s linear;
+}
+a:hover i{
+  transform: scale(1.2);
+
+}
+#aa:hover{
+  background-color:#944dff; 
+  color: white;
+}
+.row {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+
+
+}
+
+/* Clear floats after rows */
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color:white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.rowf {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+@media screen and (max-width:600px) {
+.row{
+  width: 100%;
+  margin-left:0px;
+  }
+}
+@media screen and (max-width: 600px) {
+.topnav a{
+font-size: 9px;
+margin-left: 5px;
+margin-right: 5px;
+}
+}
+/* Add padding BETWEEN each column (if you want) */
+
+
+/* Create four equal columns that floats next to each other */
+.columnf {
+  float: left;
+  width: 50%;
+
+
+}
+
+/* Clear floats after rows */
+.rowf:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.contentf {
+  background-color:white;
+  padding: 10px;
+}
+@media screen and (max-width: 600px) {
+.rowf{
+  width: 87%;
+  }
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .columnf {
+    width: 50%;
+  }
+}
+@media screen and (max-width:600px) {
+.header1{
+  width: 100%;
+  margin-left: 0px;
+  height: 70px;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columnf {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contentf{
+    width: 69%;
+    margin-left: -43px;
+  }
+}
+@media screen and (max-width:600px) {
+  #about{
+    width: 300%;
+    font-size: 14px;
+  }
+  }
+  @media screen and (max-width:600px) {
+  #indeximg{
+    width: 100%;
+    height: 350px;
+  }
+}
+/*buttom*/
+.row1{
+  margin-left: 10%;
+  margin-right: 0%;
+
+}
+.bh{
+  font-size: 26px;
+  color: #3385ff;
+  margin-left: 50px;
+}
+@media screen and (max-width: 600px) {
+  .bh{
+    width: 200%;
+    font-size: 18px;
+  }
+}
+/* Add padding BETWEEN each column (if you want) */
+
+
+/* Create four equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 33%;
+
+}
+
+/* Clear floats after rows */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content1 {
+  /*background-color: black;*/
+  padding: 0px;
+  margin-top:-10px;
+
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column1 {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column1 {
+    width: 100%;
+  }
+}
+
+/*profile*/
+
+.rowp{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.mapc{
+  width:80%;
+  margin-left: 10%;
+  margin-right: 10%
+}
+@media screen and (max-width: 600px) {
+.mapc{
+
+width: 100%;
+margin-left: -0px;
+  }
+}
+.columnp {
+  float: left;
+  width: 30%;
+  margin-right: 38px;
+  margin-top: 10px;
+
+}
+.columnp1 {
+  float: left;
+  width: 45%;
+  margin-right: 38px;
+  margin-top: 10px;
+
+}
+.columnps {
+  float: left;
+  width: 50%;
+}
+.columnpc{
+  float: left;
+  width: 50%;
+
+}
+.rowpa{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+
+
+/* Create four equal columns that floats next to each other */
+.columnpa{
+  float: left;
+  width: 40%;
+  margin-right: 38px;
+  
+
+}
+
+/* Clear floats after rows */
+.rowp:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.contentp{
+  background-color:white;
+  padding:5px;
+  margin-left: 0px;
+  margin-top: 5px;
+  padding-left:20px;
+  height: auto;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .columnp{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+.resume{
+width: 300%;
+ }
+}
+@media screen and (max-width:600px) {
+.columnpc{
+width: 138%;
+margin-left: -45px;
+ }
+}
+@media screen and (max-width:600px) {
+.columnps{
+width: 132%;
+margin-left: -40px;
+ }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columnp {
+    width: 126%;
+    margin-left: -40px;
+  }
+}
+.columnph{
+width: 125px;
+margin-right: 2.4%;
+float: left;
+}
+.resume{
+  font-size:22px;
+  font-weight: bold;
+  color: blue;
+  margin-top:10px;
+}
+.resume2{
+  font-size:20px;
+  margin-top:-20px;
+}
+.rediv{
+  width: 23%;
+  height:auto;
+  float: left;
+  margin-left:-10px;
+  margin-top: -10px;
+}
+.rdown{
+  height: 65px;
+  width: 80%;
+  margin-top: 10px;
+  margin-left: 8%;
+  margin-right: 10%;
+}
+.heading{
+  height: auto;
+  width: auto;
+  background-color:#3385ff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: -50px;
+  padding-bottom:1px;
+  margin-right: 20%;
+  margin-left: 20%;
+  font-weight: bold;
+}
+.container1 { 
+            background-color: #a6a6a6; 
+            width: 90%; 
+            border-radius:3px; 
+        } 
+      
+        .skill { 
+            background-color:#3385ff; 
+            color: white; 
+            text-align: right; 
+            font-size: 14px; 
+            border-radius:3px; 
+        } 
+      
+        .html { 
+            width: 80%; 
+        } 
+      
+        .php { 
+            width: 60%; 
+        } 
+        .WordPress{
+          width: 60%;
+        }
+        .JavaScrip{
+          width: 50%;
+        }
+        .jquery{
+          width: 40%;
+        }
+        .cpp{
+          width: 70%;
+        }
+  .eheading
+  {
+    height: auto;
+    width: auto;
+    padding:1px;
+    box-shadow: 6px 6px #b3b3b3;
+    background-color:#3385ff;
+    margin-top: 20px;
+    margin-left: -20px;
+    padding-left: 30px;
+    margin-right:180PX;
+}
+.iconh
+  {
+    height:40px;
+    width: 50px;
+    padding:1px;
+    background-color:#3385ff;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.iconh2
+  {
+    height:40px;
+    width: 800%;
+    padding:1px;
+    background-color:#99ccff;
+    border-radius: 5px;
+    padding-top: 10px;
+    margin-top: -42px;
+    margin-left: 80px;
+    
+}
+
+.bigcont{
+  width: 95.4%;
+  height: auto;
+  margin-right: 2.2%;
+  margin-left: 2.3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*pricing*/
+.pricediv{
+width: 22.5%;
+height: auto;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+float: left;
+margin-right: 20px;
+font-size: 18px;
+line-height: 1.5;
+text-align: center;
+padding-bottom: 50px;
+margin-top: 10px
+}
+.pheding{
+  width: 100%;
+  height: 60px;
+  background-color: #00b3b3;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 1px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+.pbutton{
+  width:200px;
+  height: 40px;
+  background-color:#1a1a1a;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 600px) {
+  .pricediv{
+    width: 95%;
+    margin-left: 10px;
+  }
+}
+.bline{
+  width: 70%;
+  height: 2px;
+  background-color: #ff0066;
+}
+@media only screen and (max-width:600px) {
+.iconh2{
+  width: 550%;
+ }
+}
+.header2{
+  width: 80%;
+  margin-top: 10px;
+  margin-right: 10%;
+  margin-left: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #00cc66;
+}
+@media only screen and (max-width:600px) {
+.header2{
+width: 105%;
+margin-left: -3%
+ }
+}
+@media only screen and (max-width:600px) {
+#cdiv{
+  width: 130%;
+}
+}
+@media only screen and (max-width:600px) {
+.project{
+width: 80%;
+ }
+}
+.header3{
+  width: 100%;
+  height: 90px;
+  background-color:blue
+}
+@media only screen and (max-width: 600px) {
+.header3{
+width: 290%;
+}
+}
+@media only screen and (max-width:600px) {
+#aimgp{
+width: 100%;
+}
+}
+@media only screen and (max-width:600px) {
+#adiv{
+ width: 140%;
+ margin-left: 50px;
+ }
+}
+.rowpro{
+  background-color:#ffe6e6;
+  
+}
+
+.project{
+  width: 650px;
+  float: left;
+  margin-right: 2%;
+}
+.pline1{
+width: 98%;
+margin-left: 1%;
+margin-right: 1%;
+height: 2px;
+background-color: black;
+}
+.phc{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color:#3385ff;
+}
+.pp{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.pline2{
+ width: 96%;
+margin-left: 1%;
+margin-right: 2%;
+height: 2px;
+background-color:#808080; 
+margin-top: 10px;
+}
+.columnach{
+  width: 20%;
+  float: right;
+  margin-right: 1%;
+  background-color: red;
+  height: 400px;
+}
+.contentach {
+  /*background-color: black;*/
+  padding: 0px;
+
+}
+.rowach{
+  margin-left: 0%;
+  margin-right: 0%;
+
+}
+@media only screen and (max-width:600px) {
+.phc{
+  width: 140px;
+  height: 120px;
+  padding-top:20px;
+ }
+}
+
+.projectdes{
+    width:24%;
+    height:auto;
+    float:left;
+    margin-left:1%;
+}
+
+

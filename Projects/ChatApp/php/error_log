@@ -1,0 +1,10 @@
+[13-Jul-2021 15:08:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/lavkushm/public_html/Projects/ChatApp/php/users.php on line 8
+[13-Jul-2021 15:08:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/lavkushm/public_html/Projects/ChatApp/php/users.php on line 8
+[13-Jul-2021 15:08:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/lavkushm/public_html/Projects/ChatApp/php/users.php on line 8
+[13-Jul-2021 15:08:51 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/lavkushm/public_html/Projects/ChatApp/php/users.php on line 8
+[13-Jul-2021 15:08:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/lavkushm/public_html/Projects/ChatApp/php/users.php on line 8
+[13-Jul-2021 15:08:53 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/lavkushm/public_html/Projects/ChatApp/php/users.php on line 8
+[13-Jul-2021 15:09:22 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/lavkushm/public_html/Projects/ChatApp/php/users.php on line 8
+[13-Jul-2021 15:09:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/lavkushm/public_html/Projects/ChatApp/php/users.php on line 8
+[14-Jul-2021 00:32:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/lavkushm/public_html/Projects/ChatApp/php/users.php on line 8
+[14-Jul-2021 00:32:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/lavkushm/public_html/Projects/ChatApp/php/users.php on line 8
